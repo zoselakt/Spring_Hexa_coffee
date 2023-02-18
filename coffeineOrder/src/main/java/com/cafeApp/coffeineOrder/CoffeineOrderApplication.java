@@ -1,4 +1,4 @@
-package com.coffee.coffeineOrder;
+package com.cafeApp.coffeineOrder;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class CoffeineOrderApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CoffeineOrderApplication.class, args);
+		Coffee coffee= new Coffee("연습");
+		System.out.println(coffee.getName());
 	}
-
 }

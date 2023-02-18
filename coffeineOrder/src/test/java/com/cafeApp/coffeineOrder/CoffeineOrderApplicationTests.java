@@ -1,4 +1,4 @@
-package com.coffee.coffeineOrder;
+package com.cafeApp.coffeineOrder;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
