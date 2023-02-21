@@ -1,6 +1,6 @@
 package com.cafeApp.coffeineOrder.adapter.in;
 
-import java.sql.Timestamp;
+import java.time.LocalDateTime;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -8,7 +8,7 @@ import lombok.Getter;
 @Getter
 @AllArgsConstructor
 public class CaffeineOrderResponse {
-	private long OrderNo;
+	private Long OrderNo;
 	private String OrderName;
-	private Timestamp OrderDate;
+	private LocalDateTime OrderDate;
 }
