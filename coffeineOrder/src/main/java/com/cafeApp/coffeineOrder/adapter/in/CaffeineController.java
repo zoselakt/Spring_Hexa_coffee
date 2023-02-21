@@ -6,6 +6,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class CaffeineController {
+    private final CaffeineOrderUserCase caffeineOrderUserCase;
+
+    public CaffeineController(final CaffeineOrderUserCase caffeineOrderUserCase) {
+        this.caffeineOrderUserCase = caffeineOrderUserCase;
+    }
 
     @GetMapping("/order")
     public CaffeineOrderResponse orderCaffeine() {
