@@ -1,4 +1,4 @@
-package com.cafeApp.coffeineOrder.application.port.in;
+package com.cafeApp.coffeineOrder.adapter.in;
 
 import org.springframework.web.bind.annotation.RestController;
 
