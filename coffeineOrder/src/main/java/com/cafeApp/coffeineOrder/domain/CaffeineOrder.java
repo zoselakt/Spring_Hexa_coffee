@@ -1,6 +1,6 @@
 package com.cafeApp.coffeineOrder.domain;
 
-import java.sql.Timestamp;
+import java.time.LocalDateTime;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -8,9 +8,9 @@ import lombok.Getter;
 @Getter
 @AllArgsConstructor
 public class CaffeineOrder {
-	private long orderNo;
-	private long orderPrice;
+	private Long orderNo;
+	private Long orderPrice;
 	private String goodsName;
 	private String orderUser;
-	private Timestamp orderDate;
+	private LocalDateTime orderDate;
 }
